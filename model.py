@@ -2,7 +2,7 @@ from datetime import date,datetime
 from dataclasses import dataclass
 from typing import Union, Optional,List,Set
 import exceptions
-from test_domain_try.exceptions import OutOfStock
+from exceptions import OutOfStock
 # from pyparsing import Or
 
 class Order():
